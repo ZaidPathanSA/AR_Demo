@@ -1,0 +1,90 @@
+{
+    "section_1": {
+        "title": "Productivity Index",
+        "image" : "Local image name",
+        "points" : [
+                    {
+                    "image": "Local image name",
+                    "title": "PSU reached 65% this quarter..."
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "PSU reached 65% this quarter..."
+                    }
+                    ]
+    },
+    "section_2": {
+        "title": "Trainings",
+        "image" : "Local image name",
+        "points" : [
+                    {
+                    "image": "Local image name",
+                    "title": "PSU took 20hours + training PSU took 20hours + training PSU took  20hours + training training"
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "PSU took 20hours + training.."
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "PSU took 20hours + training.."
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "PSU took 20hours + training.."
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "PSU took 20hours + training.."
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "PSU took 20hours + training.."
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "PSU took 20hours + training.."
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "PSU took 20hours + training.."
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "PSU took 20hours + training.."
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "PSU took 20hours + training.."
+                    }
+                    ]
+    },
+    "section_3": {
+        "title": "Initiatives",
+        "image" : "Local image name",
+        "points" : [
+                    {
+                    "image": "Local image name",
+                    "title": "PSU team participates in all events with 100%"
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "PSU is on the toss for help to any other detpartment"
+                    }
+                    ]   
+    },
+    "section_4": {
+        "title": "Challanges",
+        "image" : "Local image name",
+        "points" : [
+                    {
+                    "image": "Local image name",
+                    "title": "Not able to focus on weekly trainings..."
+                    },
+                    {
+                    "image": "Local image name",
+                    "title": "Not able to focus on weekly trainings..."
+                    }
+                    ]   
+    }
+}

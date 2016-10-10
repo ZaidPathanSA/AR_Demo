@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ARObject">
+            <connections>
+                <outlet property="IBimgLogo" destination="AlN-bK-tgD" id="bqO-6b-FaM"/>
+                <outlet property="IBlblTitle" destination="50A-Ls-ht8" id="inD-jg-Lio"/>
+                <outlet property="IBtbl" destination="CyC-tc-Wxj" id="Yj0-ph-CAM"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="268" height="696"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awK-3H-a9m">
+                    <rect key="frame" x="0.0" y="0.0" width="268" height="696"/>
+                    <connections>
+                        <action selector="IBActionTap:" destination="-1" eventType="touchUpInside" id="eqO-0i-GGk"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CyC-tc-Wxj">
+                    <rect key="frame" x="0.0" y="105" width="268" height="591"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="gWA-Pr-Pxk"/>
+                        <outlet property="delegate" destination="-1" id="HlH-pc-d2q"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mD3-PY-iWJ">
+                    <rect key="frame" x="0.0" y="35" width="268" height="70"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50A-Ls-ht8">
+                            <rect key="frame" x="0.0" y="35" width="268" height="35"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="1XM-3A-Lp0"/>
+                        <constraint firstAttribute="bottom" secondItem="50A-Ls-ht8" secondAttribute="bottom" id="KoQ-Ag-AKn"/>
+                        <constraint firstItem="50A-Ls-ht8" firstAttribute="top" secondItem="mD3-PY-iWJ" secondAttribute="top" constant="35" id="SXR-Ms-zUT"/>
+                        <constraint firstAttribute="trailing" secondItem="50A-Ls-ht8" secondAttribute="trailing" id="eRV-58-2iI"/>
+                        <constraint firstItem="50A-Ls-ht8" firstAttribute="leading" secondItem="mD3-PY-iWJ" secondAttribute="leading" id="nQk-rP-62n"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sa_logo" translatesAutoresizingMaskIntoConstraints="NO" id="AlN-bK-tgD">
+                    <rect key="frame" x="99" y="0.0" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="VQs-gD-Swd"/>
+                        <constraint firstAttribute="width" constant="70" id="vzx-s7-JYN"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="35"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="AlN-bK-tgD" firstAttribute="top" secondItem="1" secondAttribute="top" id="034-bj-J6d"/>
+                <constraint firstAttribute="trailing" secondItem="CyC-tc-Wxj" secondAttribute="trailing" id="94h-sx-Ghx"/>
+                <constraint firstItem="CyC-tc-Wxj" firstAttribute="top" secondItem="mD3-PY-iWJ" secondAttribute="bottom" id="IWh-8X-KzA"/>
+                <constraint firstAttribute="trailing" secondItem="mD3-PY-iWJ" secondAttribute="trailing" id="JCL-S5-854"/>
+                <constraint firstAttribute="bottom" secondItem="CyC-tc-Wxj" secondAttribute="bottom" id="Mbn-rd-luM"/>
+                <constraint firstItem="mD3-PY-iWJ" firstAttribute="top" secondItem="1" secondAttribute="top" constant="35" id="T9A-4r-RjT"/>
+                <constraint firstItem="mD3-PY-iWJ" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="UjS-UB-9Ab"/>
+                <constraint firstItem="awK-3H-a9m" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="cxu-wa-3a1"/>
+                <constraint firstAttribute="trailing" secondItem="awK-3H-a9m" secondAttribute="trailing" id="j5z-fU-oji"/>
+                <constraint firstAttribute="bottom" secondItem="awK-3H-a9m" secondAttribute="bottom" id="tcn-T8-xTB"/>
+                <constraint firstItem="AlN-bK-tgD" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="tge-mv-Vtk"/>
+                <constraint firstItem="awK-3H-a9m" firstAttribute="top" secondItem="1" secondAttribute="top" id="uGP-g4-nvF"/>
+                <constraint firstItem="CyC-tc-Wxj" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="vET-38-xIs"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="292" y="472"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sa_logo" width="90" height="90"/>
+    </resources>
+</document>

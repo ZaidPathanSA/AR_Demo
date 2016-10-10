@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PointCell" rowHeight="70" id="KGk-i7-Jjw" customClass="PointCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekH-9N-xoK" userLabel="BGView">
+                        <rect key="frame" x="0.0" y="2" width="320" height="68"/>
+                        <color key="backgroundColor" red="0.0" green="0.25882352939999997" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sa_logo" translatesAutoresizingMaskIntoConstraints="NO" id="OZn-1A-1HV">
+                        <rect key="frame" x="10" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="6bp-8E-AT1"/>
+                            <constraint firstAttribute="width" constant="50" id="Pc1-Qm-AqF"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqv-T0-Toz">
+                        <rect key="frame" x="70" y="0.0" width="250" height="69"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ekH-9N-xoK" secondAttribute="bottom" constant="-1" id="AEL-tP-TtP"/>
+                    <constraint firstItem="yqv-T0-Toz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Nqg-y0-xkN"/>
+                    <constraint firstItem="ekH-9N-xoK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="PHL-zK-QN2"/>
+                    <constraint firstItem="ekH-9N-xoK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Rfa-D1-JM5"/>
+                    <constraint firstItem="OZn-1A-1HV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="aDe-oj-cNu"/>
+                    <constraint firstItem="yqv-T0-Toz" firstAttribute="leading" secondItem="OZn-1A-1HV" secondAttribute="trailing" constant="10" id="e69-xA-ZRx"/>
+                    <constraint firstAttribute="trailing" secondItem="ekH-9N-xoK" secondAttribute="trailing" id="hPA-IM-umb"/>
+                    <constraint firstItem="OZn-1A-1HV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="hnq-Xz-FPc"/>
+                    <constraint firstAttribute="trailing" secondItem="yqv-T0-Toz" secondAttribute="trailing" id="iZd-Nc-HhI"/>
+                    <constraint firstAttribute="bottom" secondItem="yqv-T0-Toz" secondAttribute="bottom" id="v7p-aT-t89"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="IBimgLogo" destination="OZn-1A-1HV" id="h9i-g3-L0J"/>
+                <outlet property="IBlblPoint" destination="yqv-T0-Toz" id="AEa-kb-aLX"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="sa_logo" width="90" height="90"/>
+    </resources>
+</document>
