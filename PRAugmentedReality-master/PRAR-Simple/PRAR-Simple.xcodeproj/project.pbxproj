@@ -44,6 +44,7 @@
 		36CB21A818E49992000483F2 /* ARRadar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CB219A18E49992000483F2 /* ARRadar.xib */; };
 		36CB21A918E49992000483F2 /* LocationMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB219C18E49992000483F2 /* LocationMath.m */; };
 		36CB21AA18E49992000483F2 /* PRARManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB219E18E49992000483F2 /* PRARManager.m */; };
+		FCBBFD801DAE4CED00F9D8BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBBFD7F1DAE4CED00F9D8BB /* LaunchScreen.storyboard */; };
 		FCDC05CE1DAB9CB80070242B /* DetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDC05CC1DAB9CB80070242B /* DetailsVC.m */; };
 		FCE383C71DABB869003843B0 /* PointCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE383C51DABB869003843B0 /* PointCell.m */; };
 		FCE383C81DABB869003843B0 /* PointCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE383C61DABB869003843B0 /* PointCell.xib */; };
@@ -110,6 +111,7 @@
 		36CB219D18E49992000483F2 /* PRARManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRARManager.h; sourceTree = "<group>"; };
 		36CB219E18E49992000483F2 /* PRARManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRARManager.m; sourceTree = "<group>"; };
 		CB23E47C42D742E9A50498CB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBBFD7F1DAE4CED00F9D8BB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCDC05CB1DAB9CB80070242B /* DetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsVC.h; sourceTree = "<group>"; };
 		FCDC05CC1DAB9CB80070242B /* DetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsVC.m; sourceTree = "<group>"; };
 		FCE383C41DABB869003843B0 /* PointCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointCell.h; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				FCDC05CB1DAB9CB80070242B /* DetailsVC.h */,
 				FCDC05CC1DAB9CB80070242B /* DetailsVC.m */,
 				FCE383C91DABBEBD003843B0 /* data.json */,
+				FCBBFD7F1DAE4CED00F9D8BB /* LaunchScreen.storyboard */,
 			);
 			path = "PRAR-Simple";
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				36CB212E18E480E7000483F2 /* InfoPlist.strings in Resources */,
 				36CB21A818E49992000483F2 /* ARRadar.xib in Resources */,
 				36CB217818E48447000483F2 /* logo58.png in Resources */,
+				FCBBFD801DAE4CED00F9D8BB /* LaunchScreen.storyboard in Resources */,
 				36CB216C18E483C6000483F2 /* logo29.png in Resources */,
 				36CB216D18E483C6000483F2 /* logo40.png in Resources */,
 				36CB217918E48447000483F2 /* logo80.png in Resources */,
