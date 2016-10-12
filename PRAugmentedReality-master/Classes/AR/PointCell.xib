@@ -65,6 +65,7 @@
             <connections>
                 <outlet property="IBimgLogo" destination="OZn-1A-1HV" id="h9i-g3-L0J"/>
                 <outlet property="IBlblPoint" destination="yqv-T0-Toz" id="AEa-kb-aLX"/>
+                <outlet property="IBviewBackground" destination="ekH-9N-xoK" id="MU2-7K-XSX"/>
             </connections>
         </tableViewCell>
     </objects>

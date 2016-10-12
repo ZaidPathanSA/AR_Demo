@@ -11,5 +11,6 @@
 @interface PointCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *IBlblPoint;
 @property (weak, nonatomic) IBOutlet UIImageView *IBimgLogo;
+@property (weak, nonatomic) IBOutlet UIView *IBviewBackground;
 
 @end

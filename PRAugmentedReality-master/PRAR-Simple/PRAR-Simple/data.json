@@ -5,11 +5,13 @@
         "points" : [
                     {
                     "image": "Local image name",
-                    "title": "PSU reached 65% this quarter..."
+                    "title": "PSU reached 65% this quarter...",
+                    "bg_color" : "000000"
                     },
                     {
                     "image": "Local image name",
-                    "title": "PSU reached 65% this quarter..."
+                    "title": "PSU reached 65% this quarter...",
+                    "bg_color" : "ffffff"
                     }
                     ]
     },
