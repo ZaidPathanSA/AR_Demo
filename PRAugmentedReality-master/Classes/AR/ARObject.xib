@@ -62,11 +62,6 @@
                         <constraint firstAttribute="height" constant="70" id="VQs-gD-Swd"/>
                         <constraint firstAttribute="width" constant="70" id="vzx-s7-JYN"/>
                     </constraints>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                            <integer key="value" value="35"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
